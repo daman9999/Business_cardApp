@@ -1,0 +1,34 @@
+name: businesscard
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+      - images/
+
+  fonts:
+     - family: Arial
+       fonts:
+         - asset: fonts/arial.ttf
+     - family: Mistral
+       fonts:
+        - asset: fonts/MISTRAL.TTF
+     - family: Segoesc
+       fonts:
+         - asset: fonts/segoesc.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
